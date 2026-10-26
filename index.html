@@ -4,31 +4,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docker Website</title>
+
+    <title>Forma Studio | Creative Digital Agency</title>
+    <meta name="description" content="Forma Studio creates thoughtful digital experiences and modern websites.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav>
-        <h2>ModernSpace.</h2>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
 
-    <section class="hero" id="home">
-        <p>WELCOME TO OUR WEBSITE</p>
-        <h1>Build Something <span>Amazing.</span></h1>
-        <p>A modern website running inside a Docker container.</p>
-        <a class="btn" href="#about">Explore More</a>
-    </section>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">forma<span>.</span></a>
 
-    <section class="about" id="about">
-        <h2>Simple. Modern. Powerful.</h2>
-        <p>Created with HTML and CSS, and deployed using Docker.</p>
-    </section>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+            </div>
 
-    <footer id="contact">
-        <p>© 2026 ModernSpace. All rights reserved.</p>
+            <a href="#contact" class="nav-button">
+                Let's Talk <span>↗</span>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero container" id="home">
+
+            <div class="hero-content">
+                <div class="eyebrow">
+                    <span class="status-dot"></span>
+                    INDEPENDENT CREATIVE STUDIO
+                </div>
+
+                <h1>
+                    Thoughtful design.<br>
+                    <span>Meaningful impact.</span>
+                </h1>
+
+                <p class="hero-description">
+                    We help ambitious brands turn their ideas into
+                    beautiful digital experiences that inspire,
+                    connect, and make a difference.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#services" class="primary-button">
+                        Discover our work <span>↗</span>
+                    </a>
+
+                    <a href="#about" class="text-link">
+                        Get to know us <span>→</span>
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span>01</span>
+                    <p>Strategy · Design · Development</p>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <img
+                    src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85"
+                    alt="Warm, modern creative studio workspace">
+
+                <div class="image-label">
+                    <span>OUR APPROACH</span>
+                    <p>Less noise. More meaning.</p>
+                </div>
+
+                <div class="floating-mark">f.</div>
+            </div>
+
+        </section>
+
+        <!-- Brand Statement -->
+        <section class="statement">
+            <div class="container statement-inner">
+                <p>GOOD DESIGN ISN'T JUST HOW IT LOOKS.</p>
+                <h2>It's how it <em>makes you feel.</em></h2>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="services container" id="services">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">WHAT WE BRING TO THE TABLE</p>
+                    <h2>Made with intention.</h2>
+                </div>
+
+                <p class="heading-description">
+                    Every detail has a purpose. Every idea has
+                    the potential to become something remarkable.
+                </p>
+            </div>
+
+            <div class="service-grid">
+
+                <article class="service-card">
+                    <div class="card-top">
+                        <span class="service-number">01 / 03</span>
+                        <span class="service-symbol">✳</span>
+                    </div>
+
+                    <h3>Brand Identity</h3>
+                    <p>
+                        Distinctive visual identities that communicate
+                        your values and make your brand memorable.
+                    </p>
+
+                    <a href="#contact" class="card-link">
+                        Explore service <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="service-card featured">
+                    <div class="card-top">
+                        <span class="service-number">02 / 03</span>
+                        <span class="service-symbol">⌘</span>
+                    </div>
+
+                    <h3>Web Experiences</h3>
+                    <p>
+                        Beautiful, responsive websites designed
+                        to turn visitors into loyal customers.
+                    </p>
+
+                    <a href="#contact" class="card-link">
+                        Explore service <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="service-card">
+                    <div class="card-top">
+                        <span class="service-number">03 / 03</span>
+                        <span class="service-symbol">↗</span>
+                    </div>
+
+                    <h3>Digital Strategy</h3>
+                    <p>
+                        Clear digital direction that connects
+                        your business goals with your audience.
+                    </p>
+
+                    <a href="#contact" class="card-link">
+                        Explore service <span>↗</span>
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about" id="about">
+            <div class="container about-inner">
+
+                <div class="about-label">
+                    <p class="eyebrow">A DIFFERENT WAY OF THINKING</p>
+                    <span class="about-decoration">f.</span>
+                </div>
+
+                <div class="about-content">
+                    <h2>
+                        We believe the best things
+                        are built with <em>clarity and care.</em>
+                    </h2>
+
+                    <p>
+                        At Forma Studio, we bring creativity and
+                        technology together to create digital
+                        experiences that feel effortless.
+                        We focus on what matters, remove what
+                        doesn't, and make every interaction count.
+                    </p>
+
+                    <a href="#contact" class="about-link">
+                        Let's create something meaningful <span>↗</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact container" id="contact">
+            <p class="eyebrow">HAVE SOMETHING IN MIND?</p>
+
+            <h2>Let's make it <em>happen.</em></h2>
+
+            <p>
+                Every great project begins with a conversation.
+                We'd love to hear about yours.
+            </p>
+
+            <a href="mailto:hello@example.com" class="primary-button">
+                Start a conversation <span>↗</span>
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#home" class="logo footer-logo">forma<span>.</span></a>
+
+            <p>Designed with purpose. Built with care.</p>
+
+            <a href="#home" class="back-top">Back to top ↑</a>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© 2026 Forma Studio. All rights reserved.</p>
+            <p>HTML · CSS · Docker</p>
+        </div>
     </footer>
+
 </body>
 </html>
